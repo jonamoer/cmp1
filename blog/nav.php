@@ -10,7 +10,8 @@ $navigation = [
     'index.php' => 'Home',
     'create.php' => 'Create',
     'posts.php' => 'Posts',
-    'blog.php' => 'test',
+    'login.php' => 'Login',
+    'logout.php' => 'Logout',
 ];
 
 ?>

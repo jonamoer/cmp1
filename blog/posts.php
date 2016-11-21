@@ -1,9 +1,23 @@
+<?php
+session_start();
 
-<?php require_once 'header.php';?>
+if(isset($_SESSION["username"])){
+  //Je Bent ingelogd
+}else{
+  //Je bent niet ingelogd
+  header("Location: login.php");
+}
+
+?>
+<?php require_once 'header.php'; ?>
 
 
 
-<?require_once 'nav.php';?>
+<?
+$current = "posts.php";
+require_once 'nav.php';?>
+
+
 
 <div class="container">
 
